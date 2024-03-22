@@ -6,7 +6,7 @@ body {
   
   header {
     background-color: #f1f1f1;
-    padding: 20px;
+    padding: 24px;
     text-align: center;
   }
   
@@ -15,7 +15,8 @@ body {
   }
   
   h2 {
-    margin-top: 0;
+    margin-top: 20px;
+    margin-bottom: 8px;
   }
   
   nav {
@@ -37,11 +38,15 @@ body {
   
   nav a {
     text-decoration: none;
-    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: darkblue;
+    text-decoration: underline;
+
   }
   
   main {
-    padding: 20px;
+    padding: 12px;
   }
   
   img {
@@ -51,11 +56,26 @@ body {
   }
   
   main p {
-    margin-top: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     line-height: 1.5;
   }
   
   .cv ul {
     margin-left: 20px;
+  }
+
+  a {
+    margin-bottom: 12px;
+    margin-top: 0px;
+  }
+
+  .contact {
+    position: fixed;
+    bottom: 0;
+    text-align: center  ;
+    width: 100%;  /* Optional: Set width to 100% for full width */
+    padding: 24px;
+    color: #777777;
   }
   
